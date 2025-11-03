@@ -1,1 +1,29 @@
+# Ejecutables de Windows
 *.exe
+*.dll
+
+# Archivos de compilación
+*.o
+*.obj
+*.a
+*.lib
+*.so
+
+# Archivos de depuración
+*.log
+*.map
+*.dbg
+*.dSYM/
+
+# Archivos de proyecto de Dev-C++
+*.layout
+*.dev
+
+# Carpeta de salida o builds (por si se usa)
+bin/
+build/
+
+# Archivos temporales del sistema
+*.tmp
+*.bak
+
