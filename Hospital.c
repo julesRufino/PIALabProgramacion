@@ -6,6 +6,11 @@ bool validarEdad(int);
 bool validarGenero(char);
 bool validarNumeroDeConsultorio(int);
 
+void altaDelPaciente();
+void busquedaoEdicionDePaciente();
+void listadoDePacientes();
+void bajaDePaciente();
+
 main()
 {
 	int opcion;
@@ -26,6 +31,25 @@ main()
     	printf("Error, ingrese debe ingresar una opcion entre 1-5.\n");
         printf("Ingrese la opcion seleccionada: ");
     	scanf("%d", &opcion);
+	}
+	
+	switch(opcion)
+	{
+		case 1:
+			
+			break;
+		
+		case 2:
+			break;
+			
+		case 3:
+			break;
+		
+		case 4:
+			break;
+			
+		case 5:
+			break;
 	}
 	
 	}while(opcion != 5);
